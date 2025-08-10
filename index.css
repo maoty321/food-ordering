@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
+:root {
+    --primary-color: green;
+} 
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -13,4 +15,15 @@ a {
 }
 li {
     list-style-type: none;
+}
+.nav {
+    position: fixed;
+    isolation: isolate;
+    z-index: 9;
+    width: 100%;
+}
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+
 }
