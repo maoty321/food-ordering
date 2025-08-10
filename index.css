@@ -30,3 +30,17 @@ li {
     align-items: center;
     padding: 1rem;
 }
+.logo, .meubar {
+    font-size: 20px;
+    color: green;
+}
+.logo a {
+    color: white;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
