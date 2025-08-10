@@ -25,5 +25,8 @@ li {
 .nav-header {
     display: flex;
     justify-content: space-between;
-
+    width: 100%;
+    background: var(--primary-color);
+    align-items: center;
+    padding: 1rem;
 }
